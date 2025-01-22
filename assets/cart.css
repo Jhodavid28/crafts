@@ -1,0 +1,144 @@
+body {
+    display: flex;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #f7f7f7;
+}
+
+.side-menu {
+    width: 250px;
+    background: #1a1a1a;
+    color: white;
+    height: 100vh;
+    padding: 20px;
+    position: fixed;
+}
+
+.side-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.side-menu ul li {
+    margin-bottom: 15px;
+}
+
+.side-menu ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    border-radius: 5px;
+}
+
+.side-menu ul li a:hover {
+    background: #ff6f61;
+}
+
+.main-content {
+    margin-left: 270px;
+    padding: 40px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.cart-container {
+    display: flex;
+    gap: 20px;
+}
+
+.cart-items {
+    flex-grow: 1;
+}
+
+.cart-item {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.cart-item-info {
+    flex-grow: 1;
+}
+
+.cart-item-info h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.quantity-controls button {
+    background: #ff6f61;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.quantity-controls button:hover {
+    background: #e05641;
+}
+
+.cart-summary {
+    width: 300px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart-summary h2 {
+    margin-bottom: 20px;
+}
+
+.cart-summary p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.place-order-btn {
+    background: #ff6f61;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.place-order-btn:hover {
+    background: #e05641;
+}

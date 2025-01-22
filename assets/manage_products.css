@@ -1,0 +1,73 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #ff7eb3, #ff758c);
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+/* Manage Products */
+.manage-products {
+    padding: 30px;
+}
+
+.manage-products h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+/* Product Table */
+table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    color: #333;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+thead {
+    background: #ff7eb3;
+    color: white;
+}
+
+thead th {
+    padding: 15px;
+}
+
+tbody tr {
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:hover {
+    background: #ffebf3;
+}
+
+td {
+    padding: 10px;
+}
+
+td img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+button {
+    background: #ff758c;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background 0.3s ease;
+}
+
+button:hover {
+    background: #ff3b60;
+    transform: scale(1.05);
+}

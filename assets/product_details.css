@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #f7f7f7;
+}
+
+.side-menu {
+    width: 250px;
+    background: #1a1a1a;
+    color: white;
+    height: 100vh;
+    padding: 20px;
+    position: fixed;
+}
+
+.side-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.side-menu ul li {
+    margin-bottom: 15px;
+}
+
+.side-menu ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    border-radius: 5px;
+}
+
+.side-menu ul li a:hover {
+    background: #ff6f61;
+}
+
+.product-details {
+    display: flex;
+    gap: 40px;
+    margin: 40px auto;
+    padding: 40px;
+    max-width: 800px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap;
+}
+
+.product-image img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.product-info {
+    max-width: 500px;
+}
+
+.product-info h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.product-info p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+button {
+    background: #ff6f61;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #e05641;
+}
